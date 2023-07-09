@@ -16,7 +16,7 @@ Automatically takes any .mkv file with .ASS subtitles and generates .en.srt subt
 
 # How to use
 
-Open notepad and enter the above code and save as "subtitle_generator.bat"
+Open notepad and enter the above code with the proper path of where you saved your .mkv files and save as "subtitle_generator.bat"
 
 Once saved, double click on the .bat file and you should see the .en.SRT files be generated for each .mkv file in that respective folder.
 This preserves the original .mkv files and still contain the .ASS embedded subtitles but rips out .SRT file for Plex.
