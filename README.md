@@ -11,9 +11,9 @@ for %%F in ("C:\path\*.mkv") do (
 )
 
 ```
-
 Automatically takes any .mkv file with .ASS subtitles and generates .en.srt subtitle files with the same name for PLEX.
 
+![](https://i.imgur.com/nFzZo3e.gif)
 # How to use
 
 Open notepad and enter the above code with the proper path of where you saved your .mkv files and save as "subtitle_generator.bat"
