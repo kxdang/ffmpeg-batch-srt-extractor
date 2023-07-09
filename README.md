@@ -49,4 +49,8 @@ done
 # How to use on Linux
 Open a text editor and copy the above code into a new file.
 Save the file with a .sh extension, for example, subtitle_extraction.sh.
-Run the bash script and you should see the generated .srt file.
+run `chmod u+x subtitle_extraction.sh` to make it executable
+run `./subtitle_extraction.sh` in the folder of the mkv file
+You should see the generated .srt file files
+
+
