@@ -1,4 +1,4 @@
-# ffmpeg-batch-srt-generator
+# ffmpeg-batch-srt-extractor
 ffmpeg - Advanced SubStation Alpha (ASS) to SRT files
 
 # Windows .bat file code
