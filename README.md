@@ -48,5 +48,5 @@ done
 
 # How to use on Linux
 Open a text editor and copy the above code into a new file.
-Modify the input_folder variable with the actual path to your folder containing the MKV files.
 Save the file with a .sh extension, for example, subtitle_extraction.sh.
+Run the bash script and you should see the generated .srt file.
