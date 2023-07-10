@@ -23,6 +23,14 @@ endlocal
 ```
 Automatically takes any .mkv file with .ASS subtitles and generates .en.srt subtitle files with the same name for PLEX. You must have ffmpeg installed on your machine.
 
+For multi-stream subtitles, run:
+`ffmpeg -i your_file.mkv`
+
+Find the english subtitle stream number X.
+
+Replace the ffmpeg line with the number X to extract it.
+`ffmpeg -i "%%F" -map 0:X -c:s srt "!output_file!"`
+
 ![](https://i.imgur.com/nFzZo3e.gif)
 # How to use on Windows
 
