@@ -84,10 +84,11 @@ done
 ```
 
 # How to use on Linux
-Open a text editor and copy the above code into a new file.
-Save the file with a .sh extension, for example, subtitle_extraction.sh.
-run `chmod u+x subtitle_extraction.sh` to make it executable
-run `./subtitle_extraction.sh` in the folder of the mkv files
+1. Open a text editor and copy the above code into a new file.
+2. Save the file with a .sh extension, for example, `subtitle_extraction.sh`
+3. run `chmod u+x subtitle_extraction.sh` to make it executable and drag it in the folder of mkv files
+4. run `./subtitle_extraction.sh` in the folder of the mkv files
+
 You should see the generated en.srt files
 
 
